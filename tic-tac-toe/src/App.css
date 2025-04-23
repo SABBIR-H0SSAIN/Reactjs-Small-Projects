@@ -1,0 +1,30 @@
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: lightgray;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px; 
+}
+.board-row {
+  display: flex;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.winner-row{
+  background-color:green
+}
